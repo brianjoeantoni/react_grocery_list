@@ -11,9 +11,8 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,11 +22,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
-  width: 100%; 
+  height: 100vh;
+  width: 100%;
   max-width: 500px;
   border: 1px solid mediumblue;
   margin: auto;
+}
+
+.msg-wrapper {
+  white-space: pre-wrap;
 }
 
 header {
@@ -59,16 +62,16 @@ footer {
   place-content: center;
 }
 
-ul{
+ul {
   width: 100%;
   padding: 0 0.25rem;
 }
 
-ul li::before{
+ul li::before {
   content: "\200B";
 }
 
-.item{
+.item {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -77,7 +80,7 @@ ul li::before{
   background-color: #eee;
 }
 
-.item input[type="checkbox"]{
+.item input[type="checkbox"] {
   text-align: center;
   width: 2.5rem;
   width: 48px;
@@ -113,7 +116,7 @@ ul li::before{
   outline: none;
 }
 
-.addForm{
+.addForm {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -122,13 +125,13 @@ ul li::before{
   border-bottom: 1px solid #eee;
 }
 
-.addForm label{
+.addForm label {
   display: none;
   /* position: absolute;
   left: -99999px; */
 }
 
-.addForm input[type='text'] {
+.addForm input[type="text"] {
   flex-grow: 1;
   max-width: calc(100% - 50px);
   min-height: 48px;
@@ -139,7 +142,7 @@ ul li::before{
   outline: none;
 }
 
-button{
+button {
   height: 48px;
   min-width: 48px;
   border-radius: 0.25rem;
@@ -151,13 +154,13 @@ button{
 }
 
 button:focus,
-button:hover{
+button:hover {
   color: white;
   background-color: limegreen;
   outline: none;
 }
 
-.searchForm{
+.searchForm {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -166,13 +169,13 @@ button:hover{
   border-bottom: 1px solid #eee;
 }
 
-.searchForm label{
+.searchForm label {
   display: none;
   /* position: absolute;
   left: -99999px; */
 }
 
-.searchForm input[type='text'] {
+.searchForm input[type="text"] {
   flex-grow: 1;
   max-width: 100%;
   min-height: 48px;
